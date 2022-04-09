@@ -19,11 +19,12 @@
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 25px;
+  text-align: center;
 }
 
 h2 {
   display: inline;
-  margin: 10px;
+  margin: 15px;
   color: white;
 }
 
