@@ -3,6 +3,11 @@ import area from "../images/area.jpg";
 import dolce from "../images/dolce.jpg";
 import ysl from "../images/ysl-heels.jpg";
 import mesh from "../images/mesh-dress.jpg";
+import gia from "../images/gia.jpg";
+import laquan from "../images/laquan.jpg";
+import black from "../images/black-heels.jpg";
+import bra from "../images/gucci-bra.webp";
+import pants from "../images/pants.webp";
 
 function BirthdayDinner() {
   return (
@@ -69,10 +74,10 @@ function BirthdayDinner() {
         <br />
         <br />
         <div className="column">
-          <p>Outfit Two</p>
+          <p>Outfit Three</p>
           <br />
           <a href="https://www.ssense.com/en-us/women/product/gauntlett-cheng/brown-polyester-mini-dress/9825471">
-            <img className="img" src={mesh} alt="gauntlett-cheng" width="250" />
+            <img className="img" src={mesh} alt="gauntlett-cheng" width="100" />
           </a>
           <br />
           <br />
@@ -81,15 +86,66 @@ function BirthdayDinner() {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="gucci-btn">AREA CRYSTAL DRESS</button>
+            <button className="gucci-btn">GUANLETT CHENG DRESS</button>
           </a>
-          <img src={ysl} alt="ysl" width="300" />
+          <img src={gia} alt="gia-heels" width="300" />
           <a
-            href="https://www.saksfifthavenue.com/product/saint-laurent-opyum-leather-sandals-0400099522701.html?dwvar_0400099522701_color=BLACK"
+            href="https://www.saksfifthavenue.com/product/gia-borghini-leather-strappy-sandals-0400015709099.html?dwvar_0400015709099_color=COFFEE%20BROWN"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="gucci-btn">YSL HEELS</button>
+            <button className="gucci-btn">GIA HEELS</button>
+          </a>
+        </div>
+        <div className="column">
+          <p>Outfit Four</p>
+          <br />
+          <a href="https://laquansmith.com/collections/catsuit/products/off-the-shoulder-sheer-and-velvet-catsuit">
+            <img className="img" src={laquan} alt="laquan-smith" width="300" />
+          </a>
+          <br />
+          <br />
+          <a
+            href="https://www.saksfifthavenue.com/product/dolce-gabbana-sculpted-heel-patent-leather-sandals-0400012630540.html?dwvar_0400012630540_color=NERO"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="DOLCE & GABANA">GUANLETT CHENG DRESS</button>
+          </a>
+          <img src={black} alt="black-heels" width="300" />
+          <a
+            href="https://www.saksfifthavenue.com/product/gia-borghini-leather-strappy-sandals-0400015709099.html?dwvar_0400015709099_color=COFFEE%20BROWN"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="gucci-btn">GIA HEELS</button>
+          </a>
+        </div>
+        <div className="column">
+          <p>Outfit Five</p>
+          <br />
+          <a href="https://www.gucci.com/us/en/pr/women/ready-to-wear-for-women/tops-shirts-for-women/tops-for-women/gg-embroidered-silk-top-p-681155ZAIDC7278">
+            <img className="img" src={bra} alt="gucci-bra" width="350" />
+          </a>
+          <br />
+          <br />
+          <a
+            href="https://www.saksfifthavenue.com/product/dolce-gabbana-sculpted-heel-patent-leather-sandals-0400012630540.html?dwvar_0400012630540_color=NERO"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="gucci-btn">GUCCI BRA</button>
+          </a>
+          <br />
+          <br />
+          <br />
+          <img src={pants} alt="alexander-wang-pants" width="200" />
+          <a
+            href="https://www.ssense.com/en-us/women/product/alexander-wang/black-polyester-trousers/9374741"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="gucci-btn">ALEXANDER WANG</button>
           </a>
         </div>
       </section>
