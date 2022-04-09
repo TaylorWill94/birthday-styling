@@ -32,13 +32,13 @@ a {
 }
 
 .home {
-  padding-top: 25%;
+  padding-top: 10%;
   grid-column: 2;
   text-align: center;
 }
 
 .dinner {
-  padding-top: 25%;
+  padding-top: 10%;
   grid-column: 2;
   text-align: center;
 }
@@ -46,22 +46,36 @@ a {
 p {
   font-size: 18px;
 }
-.img {
-  display: inline;
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.outfit-sec::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .gucci-btn {
   padding: 10px;
+  transition-duration: 0.4s;
+}
+
+.gucci-btn:hover {
+  color: pink;
 }
 
 .outfits {
-  padding-top: 25%;
+  padding-top: 10%;
   grid-column: 2;
   text-align: center;
 }
 
 .vacation {
-  padding-top: 25%;
+  padding-top: 10%;
   grid-column: 2;
   text-align: center;
 }
