@@ -31,7 +31,11 @@ function BirthdayDinner() {
         </a>
         <br />
         <br />
-        <a href='"https://www.farfetch.com/shopping/women/area-crystal-embellished-mini-dress-item-17266847.aspx?storeid=13537"'>
+        <a
+          href="https://www.farfetch.com/shopping/women/area-crystal-embellished-mini-dress-item-17266847.aspx?storeid=13537"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button className="gucci-btn">AREA CRYSTAL DRESS</button>
         </a>
       </section>
