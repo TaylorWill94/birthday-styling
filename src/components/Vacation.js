@@ -16,7 +16,9 @@ function Vacation() {
         <br />
         <br />
         <div className="column">
-          <p>OUTFIT ONE</p>
+          <br />
+          <br />
+          <h1>OUTFIT ONE</h1>
           <br />
           <a
             href="https://www.ssense.com/en-us/women/product/stella-mccartney/white-viscose-dress/9590061"
@@ -45,6 +47,8 @@ function Vacation() {
           </a>
         </div>
         <div className="column">
+          <br />
+          <br />
           <p>OUTFIT TWO</p>
           <br />
           <a
@@ -72,9 +76,18 @@ function Vacation() {
           >
             <button className="gucci-btn">BLUMARINE HEELS</button>
           </a>
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
+
         <div className="column">
-          <p>OUTFIT THREE</p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <h1>OUTFIT THREE</h1>
           <br />
           <a
             href="https://www.ssense.com/en-us/women/product/alexander-wang/silver-cowl-crop-halter-top/8573631"
@@ -119,7 +132,15 @@ function Vacation() {
           >
             <button className="gucci-btn">GIVENCHY HEELS</button>
           </a>
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
         <br />
         <br />
         <div className="column">
@@ -129,7 +150,9 @@ function Vacation() {
           <br />
           <br />
           <p>
-            I would cut this top and tie it for a more sexier, sportier look!
+            <em>
+              I would cut this top and tie it for a more sexier, sportier look!
+            </em>
           </p>
           <br />
           <a

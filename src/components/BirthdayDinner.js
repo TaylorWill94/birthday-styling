@@ -19,6 +19,8 @@ function BirthdayDinner() {
         <br />
         <br />
         <div className="column">
+          <br />
+          <br />
           <h1>OUTFIT ONE</h1>
           <br />
           <a
@@ -105,7 +107,7 @@ function BirthdayDinner() {
           <p>OUTFIT FOUR</p>
           <br />
           <a href="https://laquansmith.com/collections/catsuit/products/off-the-shoulder-sheer-and-velvet-catsuit">
-            <img className="img" src={laquan} alt="laquan-smith" width="300" />
+            <img className="img" src={laquan} alt="laquan-smith" width="250" />
           </a>
           <br />
           <br />

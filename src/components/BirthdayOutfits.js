@@ -11,7 +11,9 @@ function BirthdayOutfits() {
         <br />
         <br />
         <div className="column">
-          <p>OUTFIT ONE</p>
+          <br />
+          <br />
+          <h1>OUTFIT ONE</h1>
           <br />
           <a
             href="https://www.gucci.com/us/en/pr/women/ready-to-wear-for-women/tops-shirts-for-women/tops-for-women/gg-jersey-jacquard-sleeveless-top-p-693286XJEFY7388"
@@ -42,6 +44,8 @@ function BirthdayOutfits() {
         <br />
         <br />
         <div className="column">
+          <br />
+          <br />
           <p>OUTFIT TWO</p>
           <br />
           <a
